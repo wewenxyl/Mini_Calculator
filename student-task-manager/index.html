@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Student Task Manager</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Student Task Manager</h1>
+
+        <p class="subtitle">
+            Manage your school tasks and assignments
+        </p>
+
+        <form id="taskForm">
+
+            <input type="hidden" id="editIndex">
+
+            <label for="subject">Subject</label>
+            <input
+                type="text"
+                id="subject"
+                placeholder="Enter subject"
+                required
+            >
+
+            <label for="task">Task / Assignment</label>
+<textarea
+    id="task"
+    placeholder="Enter your task or assignment..."
+    rows="3"
+    required
+></textarea>
+
+            <label for="deadline">Deadline</label>
+            <input
+                type="date"
+                id="deadline"
+                required
+            >
+
+            <label for="status">Status</label>
+            <select id="status" required>
+                <option value="">Select status</option>
+                <option value="Pending">Pending</option>
+                <option value="In Progress">In Progress</option>
+                <option value="Completed">Completed</option>
+            </select>
+
+            <button type="submit" id="submitBtn">
+                Add Task
+            </button>
+
+            <button type="button" id="clearBtn">
+                Clear
+            </button>
+
+        </form>
+
+        <h2>My Tasks</h2>
+
+        <div class="table-container">
+
+            <table>
+
+                <thead>
+                    <tr>
+                        <th>Subject</th>
+                        <th>Task / Assignment</th>
+                        <th>Deadline</th>
+                        <th>Status</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+
+                <tbody id="taskTable">
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+      </html>
