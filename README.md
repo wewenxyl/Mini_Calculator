@@ -1,12 +1,12 @@
-Mini Calculator
+## Mini Calculator
 
-About the Project
+## About the Project
 
 Mini Calculator is a simple web-based calculator designed to perform basic mathematical operations through an easy-to-use interface.
 
 The project was created as a simple academic web development project using HTML, CSS, and JavaScript.
 
-Features
+## Features
 
 - Addition
 - Subtraction
@@ -20,19 +20,19 @@ Features
 - Responsive design
 - Interactive button effects
 
-Technologies Used
+## Technologies Used
 
 - HTML
 - CSS
 - JavaScript
 
-How It Works
+## How It Works
 
 Users can enter numbers and select an operation using the calculator buttons. The calculator displays the current and previous values and calculates the result when the equals button is pressed.
 
 The system also prevents division by zero and displays an error when an invalid calculation is attempted.
 
-Purpose
+## Purpose
 
 The purpose of this project is to demonstrate the basic use of HTML, CSS, and JavaScript in creating an interactive web application.
 
