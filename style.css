@@ -43,6 +43,7 @@ body {
 }
 
 
+
 .brand {
     margin-bottom: 22px;
 }
@@ -89,7 +90,6 @@ body {
 }
 
 
-
 .display {
     min-height: 105px;
 
@@ -131,6 +131,7 @@ body {
 
     word-wrap: break-word;
 }
+
 
 
 .buttons {
@@ -175,6 +176,7 @@ button:active {
 }
 
 
+
 .function {
     background: #4b4b5f;
 
@@ -184,6 +186,7 @@ button:active {
 .function:hover {
     background: #5b5b70;
 }
+
 
 
 .operator {
@@ -223,7 +226,6 @@ button:active {
         #22c55e
     );
 }
-
 
 
 .zero {
