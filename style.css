@@ -36,21 +36,39 @@ body {
 }
 
 
+
+
 .page {
     width: 100%;
     max-width: 380px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
     text-align: center;
 }
 
 
 
+
 .brand {
+    width: 100%;
     margin-bottom: 22px;
+
+    text-align: center;
 }
 
 .brand h1 {
+    width: 100%;
+
     font-size: 28px;
-    margin-bottom: 6px;
+    line-height: 1.2;
+
+    margin-bottom: 7px;
+
+    text-align: center;
 
     background: linear-gradient(
         90deg,
@@ -64,12 +82,17 @@ body {
 }
 
 .brand p {
+    width: 100%;
+
     color: #a5b4fc;
 
     font-size: 13px;
 
     letter-spacing: 1px;
+
+    text-align: center;
 }
+
 
 
 
@@ -90,7 +113,10 @@ body {
 }
 
 
+
+
 .display {
+    width: 100%;
     min-height: 105px;
 
     padding: 16px;
@@ -134,7 +160,10 @@ body {
 
 
 
+
 .buttons {
+    width: 100%;
+
     display: grid;
 
     grid-template-columns: repeat(4, 1fr);
@@ -142,7 +171,11 @@ body {
     gap: 10px;
 }
 
+
+
+
 button {
+    width: 100%;
     height: 60px;
 
     border: none;
@@ -177,6 +210,7 @@ button:active {
 
 
 
+
 .function {
     background: #4b4b5f;
 
@@ -186,6 +220,7 @@ button:active {
 .function:hover {
     background: #5b5b70;
 }
+
 
 
 
@@ -209,6 +244,7 @@ button:active {
 
 
 
+
 .equals {
     background: linear-gradient(
         135deg,
@@ -228,13 +264,17 @@ button:active {
 }
 
 
+
 .zero {
     grid-column: span 2;
 }
 
 
 
+
 .footer {
+    width: 100%;
+
     margin-top: 18px;
 
     color: #818cf8;
@@ -242,7 +282,10 @@ button:active {
     font-size: 11px;
 
     letter-spacing: 0.5px;
+
+    text-align: center;
 }
+
 
 
 
@@ -252,21 +295,51 @@ button:active {
         padding: 15px;
     }
 
+    .page {
+        max-width: 350px;
+    }
+
+    .brand {
+        margin-bottom: 18px;
+    }
+
     .brand h1 {
         font-size: 24px;
     }
 
+    .brand p {
+        font-size: 12px;
+    }
+
     .calculator {
         padding: 16px;
+
+        border-radius: 22px;
+    }
+
+    .display {
+        min-height: 95px;
+    }
+
+    #current {
+        font-size: 32px;
+    }
+
+    .buttons {
+        gap: 8px;
     }
 
     button {
         height: 55px;
 
         font-size: 18px;
+
+        border-radius: 12px;
     }
 
-    #current {
-        font-size: 32px;
+    .footer {
+        margin-top: 15px;
+
+        font-size: 10px;
     }
-}
+            }
